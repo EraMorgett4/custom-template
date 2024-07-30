@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "private": true,
+  "name": "custom-template",
+  "version": "1.0.0",
+  "description": "React 개발을 위한 Vite custom template 작성하기",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.3.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
