@@ -9,7 +9,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint \"./src/**\" --report-unused-disable-directives --ignore-pattern .gitignore"
+    "lint": "eslint \"./src/**\" --report-unused-disable-directives --ignore-pattern .gitignore",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +27,8 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.8.0",
-    "vite": "^5.3.5"
+    "vite": "^5.3.5",
+    "vitest": "^2.0.4"
   },
   "dependencies": {
     "react": "^18.3.1",

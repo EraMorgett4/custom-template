@@ -2,6 +2,14 @@
 
 React 개발을 위한 Vite custom template 작성하기
 
+## 폴더 구성
+
+![파일경로](/public/img/imgforMD/image.png)
+
+본 폴더에선 React + eslint + vite + vitest를 manual scaffold 로 설정하였습니다.
+
+## 과정
+
 1. `README.md`, `.gitignore` 생성
 
 2. pnpm 프로젝트 초기화 / 혹은 새 package.json에 빈 객체를 넣기
