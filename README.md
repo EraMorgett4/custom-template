@@ -146,3 +146,4 @@ import { fileURLToPath, URL } from "node:url";
 
 15. sass 설정 추가
     `pnpm add sass`
+    Vite는 SCSS를 자동으로 지원하기 때문에, 확장자만 설정해주면 자동으로 적용된다.

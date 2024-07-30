@@ -1,6 +1,6 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "@/styles/globals.css";
+import "@/styles/globals.scss";
 
 // Vite 클라이언트 환경에서 사용가능한 환경변수
 console.log(import.meta.env);
